@@ -212,3 +212,104 @@ button {
     margin: 0 auto;
     display: block;
 }
+.product-icon-wrap {
+    width: 54px;
+    height: 54px;
+    border-radius: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 26px;
+}
+.cursor-icon-wrap {
+    background-color: #02897a;
+}
+.wave-icon-wrap {
+    background-color: #4d8dff;
+}
+.heart-icon-wrap {
+    background-color: #740a76;
+}
+.sand-clock-icon-wrap {
+    background-color: #F03e3d;
+}
+
+.management .container {
+    display: flex;
+    justify-content: space-between;
+}
+.management {
+    margin-bottom: 100px;
+}
+.icon-management-img {
+    flex-shrink: 0;
+}
+.management-text-wrapper {
+    margin: 41px 84px 41px 0;
+    max-width: 486px;
+}
+.management-title {
+    max-width: 224px;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+.management-title span {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    display: block;
+}
+.management-text {
+    line-height: 1.625;
+}
+.management-list {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.management-subtitle {
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.support .container {
+    display: flex;
+    justify-content: space-between;
+}
+.support-wrapper {
+    max-width: 450px;
+}
+.support-title {
+    font-size: 32px;
+    max-width: 303px;
+}
+.support-title span {
+    font-size: 16px;
+    font-weight: 600;
+    
+}
+.icon-tick-wrap {
+    width: 35px;
+    height: 35px;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon-tick {
+    fill: #fff;
+}
+.icon-tick-green {
+    background-color: #FF9900;
+}
+.icon-tick-red {
+    background-color: #F03E3D;
+}
+.icon-tick-blue {
+    background-color: #4D8DFF;
+}
+.support-item-text {
+    max-width: 385px;
+}
