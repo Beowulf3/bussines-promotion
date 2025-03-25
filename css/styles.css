@@ -164,6 +164,10 @@ button {
     font-size: 16px;
     text-decoration: underline;
     color: #02897a;
+    display: flex;
+}
+.icon-triangle {
+    margin-right: 9px;
 }
 
 /* product */
@@ -274,6 +278,9 @@ button {
     margin-bottom: 12px;
 }
 
+.support {
+    margin-bottom: 100px;
+}
 .support .container {
     display: flex;
     justify-content: space-between;
@@ -283,12 +290,16 @@ button {
 }
 .support-title {
     font-size: 32px;
-    max-width: 303px;
+    max-width: 304px;
+    margin: 41px 0 25px;
 }
 .support-title span {
     font-size: 16px;
     font-weight: 600;
-    
+    margin-bottom: 8px;
+}
+.support-text {
+    margin-bottom: 30px;
 }
 .icon-tick-wrap {
     width: 35px;
@@ -297,6 +308,7 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-right: 30px;
 }
 .icon-tick {
     fill: #fff;
@@ -312,4 +324,65 @@ button {
 }
 .support-item-text {
     max-width: 385px;
+    line-height: 1.625;
 }
+.support-item-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.support-list {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.collaboration .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.collaboration {
+    margin-bottom: 150px;
+}
+
+.icon-collaboration-img {
+    flex-shrink: 0;
+}
+
+.collaboration-text-wrapper {
+    margin: 41px 84px 41px 0;
+    max-width: 486px;
+}
+
+.collaboration-title {
+    max-width: 224px;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.collaboration-title span {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    display: block;
+}
+
+.collaboration-text {
+    line-height: 1.625;
+}
+
+.collaboration-list {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.collaboration-subtitle {
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+/* попробуй через flex-wrap и flex-direction: row-reverse */
