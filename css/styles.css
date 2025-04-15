@@ -744,3 +744,291 @@ button {
   text-align: center;
   line-height: 1.87;
 }
+
+/* ------------------------ Customers --------------------------- */
+
+.customers .container {
+  max-width: 850px;
+  margin-top: 100px;
+  margin-bottom: 117px;
+}
+.customers-title {
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.customers-list {
+  display: flex;
+  gap: 64px;
+}
+
+.benefits .container {
+  max-width: 1400px;
+  background-color: #f5f5f5;
+  padding: 24px 145px 68px;
+}
+.benefits-title {
+  font-size: 34px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.benefits-list {
+  display: flex;
+  gap: 30px;
+}
+.benefits-item {
+  width: calc((100% - 60px) / 3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #dedede;
+  border-radius: 10px;
+  padding: 32px 26px;
+}
+.benefits-item-text {
+  max-width: 275px;
+  text-align: center;
+  line-height: 1.6875;
+  letter-spacing: 0.01em;
+}
+.benefits-item .product-icon-wrap {
+  width: 50px;
+  height: 50px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  margin-bottom: 32px;
+}
+.benefits-item .heart-icon-wrap {
+  background-color: #f03e3d;
+}
+.benefits-item-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.375;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.work .container {
+  max-width: 1400px;
+  padding: 100px 189px 115px;
+}
+.work-title {
+  font-size: 34px;
+  text-align: center;
+  margin-bottom: 73px;
+}
+.work-list {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  margin-bottom: 77px;
+}
+.work-item {
+  display: flex;
+  gap: 90px;
+}
+.work-item-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 35px;
+}
+.step {
+  font-weight: 500;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.work-subtitle {
+  font-weight: 600;
+  font-size: 24px;
+}
+.work-text {
+  max-width: 438px;
+  line-height: 1.75;
+}
+.work-item:nth-child(even) {
+  flex-direction: row-reverse;
+}
+.work-btn {
+  display: block;
+  border-radius: 8px;
+  width: 224px;
+  height: 44px;
+  background-color: #02897a;
+  color: #fff;
+  font-weight: 600;
+  font-size: 18px;
+  margin: 0 auto;
+}
+
+.invite .container {
+  width: 1400px;
+  padding-top: 35px;
+  padding-bottom: 45px;
+  background: linear-gradient(180deg, #f5f5f5 0%, rgba(245, 245, 245, 0) 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.invite-title {
+  max-width: 537px;
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 93px;
+}
+.invite-list {
+  display: flex;
+  gap: 220px;
+}
+.invite-item {
+  text-align: center;
+}
+.invite-img-wrap {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: #ffefef;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-bottom: 27px;
+}
+.invite-item:last-child .invite-img-wrap {
+  background-color: #f2f6ff;
+}
+.invite-subtitle {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.16667;
+  color: #000;
+  margin-bottom: 16px;
+}
+.invite-sublist {
+  font-size: 18px;
+  line-height: 1.77778;
+  margin-bottom: 12px;
+}
+.invite-list-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #000;
+}
+
+/* ----------------------------- Pricing ------------------------- */
+
+.pricing .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 150px;
+}
+.pricing-title {
+  font-weight: 600;
+  font-size: 24px;
+  text-transform: uppercase;
+  margin-bottom: 32px;
+}
+.pricing-text {
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 16px;
+}
+.pricing-subtext {
+  font-weight: 500;
+  margin-bottom: 49px;
+}
+.enterprice .container {
+  width: 1400px;
+  background: linear-gradient(180deg, #f6f6f6 0%, rgba(246, 246, 246, 0) 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-bottom: 294px;
+}
+.enterprice-title {
+  font-weight: 600;
+  font-size: 24px;
+  margin-bottom: 16px;
+  text-transform: uppercase;
+}
+.enterprice-text {
+  font-weight: 700;
+  font-size: 34px;
+  margin-bottom: 8px;
+}
+.enterprice-subtext {
+  font-size: 18px;
+  margin-bottom: 32px;
+}
+.enterprice-btn {
+  border-radius: 8px;
+  width: 224px;
+  height: 44px;
+  background: #02897a;
+  color: #fff;
+  font-weight: 600;
+  font-size: 18px;
+}
+.effects .container {
+  width: 1131px;
+  margin-bottom: 6px;
+}
+.effects-title {
+  font-size: 34px;
+  text-align: center;
+  margin-bottom: 56px;
+}
+.effects-wrap {
+  display: flex;
+  gap: 60px;
+}
+.amico-icon {
+  flex-shrink: 0;
+}
+.effects-list {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.effects-title-wrap {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 16px;
+}
+.effects-icon-wrap {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #f4f5f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.effects-subtitle {
+  font-weight: 600;
+  font-size: 24px;
+}
+.effects-text {
+  line-height: 1.75;
+}
+.faq .container {
+  max-width: 920px;
+  margin-bottom: 150px;
+}
+.faq-title {
+  font-size: 34px;
+  text-align: center;
+  margin-bottom: 8px;
+}
+.faq-text {
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 50px;
+}

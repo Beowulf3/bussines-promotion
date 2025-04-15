@@ -24,8 +24,10 @@
             Product</a
           >
           <ul class="nav-list">
-            <li><a class="nav-link current" href="./index.html">Product</a></li>
-            <li><a class="nav-link" href="./customers.html">Customers</a></li>
+            <li><a class="nav-link" href="./index.html">Product</a></li>
+            <li>
+              <a class="nav-link current" href="./customers.html">Customers</a>
+            </li>
             <li><a class="nav-link" href="./pricing.html">Pricing</a></li>
             <li><a class="nav-link" href="">Resources</a></li>
           </ul>
@@ -45,103 +47,152 @@
       </div>
     </header>
     <main>
-      <section>
-        <h1>Our Clients</h1>
-        <ul>
-          <li><img src="./images/Airbnb-logo-min.png" alt="Airbnb" /></li>
-          <li><img src="./images/Google-logo-min.png" alt="Google" /></li>
-          <li><img src="./images/Microsoft-logo-min.png" alt="Microsoft" /></li>
-          <li><img src="./images/FedEx-logo-min.png" alt="FedEx" /></li>
-        </ul>
+      <section class="customers">
+        <div class="container">
+          <h1 class="customers-title">Our Clients</h1>
+          <ul class="customers-list">
+            <li>
+              <svg class="" width="159" height="50">
+                <use href="./images/icons.svg#icon-airbnb-logo"></use>
+              </svg>
+            </li>
+            <li>
+              <svg class="" width="146" height="50">
+                <use href="./images/icons.svg#icon-google-logo"></use>
+              </svg>
+            </li>
+            <li>
+              <svg class="" width="213" height="44">
+                <use href="./images/icons.svg#icon-microsoft-logo"></use>
+              </svg>
+            </li>
+            <li>
+              <svg class="" width="159" height="50">
+                <use href="./images/icons.svg#icon-fedex-logo"></use>
+              </svg>
+            </li>
+          </ul>
+        </div>
       </section>
-      <section>
-        <h2>Why Choose Product?</h2>
-        <ul>
-          <li>
-            <img src="./images/icon-green-min.png" alt="green icon" />
-            <h3>Special Business</h3>
-            <p>
-              Product helps you see how many more days you need to work to reach
-              your financial goal for the month and year.
-            </p>
-          </li>
-          <li>
-            <img src="./images/icon-blue-min.png" alt="blue icon" />
-            <h3>Instant Result</h3>
-            <p>
-              Product helps you see how many more days you need to work to reach
-              your financial goal for the month and year.
-            </p>
-          </li>
-          <li>
-            <img src="./images/icon-red-min.png" alt="red icon" />
-            <h3>Fastest way to organize</h3>
-            <p>
-              Product helps you see how many more days you need to work to reach
-              your financial goal for the month and year.
-            </p>
-          </li>
-        </ul>
+      <section class="benefits">
+        <div class="container">
+          <h2 class="benefits-title">Why Choose Product?</h2>
+          <ul class="benefits-list">
+            <li class="benefits-item">
+              <div class="product-icon-wrap cursor-icon-wrap">
+                <svg class="product-icon" width="11" height="18">
+                  <use href="./images/icons.svg#icon-first"></use>
+                </svg>
+              </div>
+              <h3 class="benefits-item-title">Special Business</h3>
+              <p class="benefits-item-text">
+                Product helps you see how many more days you need to work to
+                reach your financial goal for the month and year.
+              </p>
+            </li>
+            <li class="benefits-item">
+              <div class="product-icon-wrap wave-icon-wrap">
+                <svg class="product-icon" width="18" height="18">
+                  <use href="./images/icons.svg#icon-second"></use>
+                </svg>
+              </div>
+              <h3 class="benefits-item-title">Instant Result</h3>
+              <p class="benefits-item-text">
+                Product helps you see how many more days you need to work to
+                reach your financial goal for the month and year.
+              </p>
+            </li>
+            <li class="benefits-item">
+              <div class="product-icon-wrap heart-icon-wrap">
+                <svg class="product-icon" width="16" height="18">
+                  <use href="./images/icons.svg#icon-heart"></use>
+                </svg>
+              </div>
+              <h3 class="benefits-item-title">Fastest way to organize</h3>
+              <p class="benefits-item-text">
+                Product helps you see how many more days you need to work to
+                reach your financial goal for the month and year.
+              </p>
+            </li>
+          </ul>
+        </div>
       </section>
-      <section>
-        <h2>How Product Work?</h2>
-        <ul>
-          <li>
-            <img src="./images/mac1-min.png" alt="mac" />
-            <p>Step 1</p>
-            <h3>Apply for a product</h3>
-            <p>
-              Completing our easy step-by-step application form gives you access
-              to multiple business with multiple products. We analyse your
-              business through our proprietary credit analysis technology
-            </p>
-          </li>
-          <li>
-            <p>Step 2</p>
-            <h3>Pay fully refundable</h3>
-            <p>
-              Product will contactting you instantly to receive payment of the
-              Application Fee. if no offer of product is available, your fee
-              will be fully refunded.
-            </p>
-            <img src="./images/mac2-min.png" alt="mac" />
-          </li>
-          <li>
-            <img src="./images/mac3-min.png" alt="mac" />
-            <p>Step 3</p>
-            <h3>Completion</h3>
-            <p>
-              Product will continue to liase between borrower and manager to
-              procees and complete a quick and efficient settlement
-            </p>
-          </li>
-        </ul>
-        <button>Get in touch with us</button>
+      <section class="work">
+        <div class="container">
+          <h2 class="work-title">How Product Work?</h2>
+          <ul class="work-list">
+            <li class="work-item">
+              <img src="./images/mac1-min.png" alt="mac" />
+              <div class="work-item-wrap">
+                <span class="step">Step 1</span>
+                <h3 class="work-subtitle">Apply for a product</h3>
+                <p class="work-text">
+                  Completing our easy step-by-step application form gives you
+                  access to multiple business with multiple products. We analyse
+                  your business through our proprietary credit analysis
+                  technology
+                </p>
+              </div>
+            </li>
+            <li class="work-item">
+              <img src="./images/mac2-min.png" alt="mac" />
+              <div class="work-item-wrap">
+                <span class="step">Step 2</span>
+                <h3 class="work-subtitle">Pay fully refundable</h3>
+                <p class="work-text">
+                  Product will contactting you instantly to receive payment of
+                  the Application Fee. if no offer of product is available, your
+                  fee will be fully refunded.
+                </p>
+              </div>
+            </li>
+            <li class="work-item">
+              <img src="./images/mac3-min.png" alt="mac" />
+              <div class="work-item-wrap">
+                <span class="step">Step 3</span>
+                <h3 class="work-subtitle">Completion</h3>
+                <p class="work-text">
+                  Product will continue to liase between borrower and manager to
+                  procees and complete a quick and efficient settlement
+                </p>
+              </div>
+            </li>
+          </ul>
+          <button class="work-btn">Get in touch with us</button>
+        </div>
       </section>
-      <section>
-        <h2>Join thousand of other who have already received offers</h2>
-        <ul>
-          <li>
-            <img src="./images/business-min.png" alt="business" />
-            <h3>Business</h3>
-            <ul>
-              <li>Cash Flow</li>
-              <li>Asset Backed</li>
-              <li>Receivables Finance</li>
-            </ul>
-            <p>Find the best business product</p>
-          </li>
-          <li>
-            <img src="./images/enterprice-min.png" alt="enterprice" />
-            <h3>Enterprise</h3>
-            <ul>
-              <li>Site Acquisition</li>
-              <li>Bridge</li>
-              <li>Development Financing</li>
-            </ul>
-            <p>Find the best business product</p>
-          </li>
-        </ul>
+      <section class="invite">
+        <div class="container">
+          <h2 class="invite-title">
+            Join thousand of other who have already received offers
+          </h2>
+          <ul class="invite-list">
+            <li class="invite-item">
+              <div class="invite-img-wrap">
+                <img src="./images/Activity-min.png" alt="activity" />
+              </div>
+              <p class="invite-subtitle">Business</p>
+              <ul class="invite-sublist">
+                <li>Cash Flow</li>
+                <li>Asset Backed</li>
+                <li>Receivables Finance</li>
+              </ul>
+              <p class="invite-list-text">Find the best business product</p>
+            </li>
+            <li class="invite-item">
+              <div class="invite-img-wrap">
+                <img src="./images/Chart-min.png" alt="enterprice" />
+              </div>
+              <p class="invite-subtitle">Enterprise</p>
+              <ul class="invite-sublist">
+                <li>Site Acquisition</li>
+                <li>Bridge</li>
+                <li>Development Financing</li>
+              </ul>
+              <p class="invite-list-text">Find the best business product</p>
+            </li>
+          </ul>
+        </div>
       </section>
       <section class="join">
         <div class="container">
