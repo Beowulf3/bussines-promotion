@@ -163,6 +163,7 @@ button {
   color: #02897a;
   display: flex;
 }
+
 .icon-triangle {
   margin-right: 9px;
 }
@@ -213,6 +214,7 @@ button {
   margin: 0 auto;
   display: block;
 }
+
 .product-icon-wrap {
   width: 54px;
   height: 54px;
@@ -222,15 +224,19 @@ button {
   justify-content: center;
   margin-bottom: 26px;
 }
+
 .cursor-icon-wrap {
   background-color: #02897a;
 }
+
 .wave-icon-wrap {
   background-color: #4d8dff;
 }
+
 .heart-icon-wrap {
   background-color: #740a76;
 }
+
 .sand-clock-icon-wrap {
   background-color: #f03e3d;
 }
@@ -240,37 +246,45 @@ button {
   align-items: center;
   justify-content: space-between;
 }
+
 .management {
   margin-bottom: 100px;
 }
+
 .icon-management-img {
   flex-shrink: 0;
 }
+
 .management-text-wrapper {
   margin: 41px 84px 41px 0;
   max-width: 486px;
 }
+
 .management-title {
   max-width: 224px;
   font-size: 32px;
   font-weight: 700;
   margin-bottom: 25px;
 }
+
 .management-title span {
   font-size: 16px;
   font-weight: 600;
   margin-bottom: 8px;
   display: block;
 }
+
 .management-text {
   line-height: 1.625;
 }
+
 .management-list {
   margin-top: 30px;
   display: flex;
   flex-direction: column;
   gap: 25px;
 }
+
 .management-subtitle {
   font-weight: 600;
   margin-bottom: 12px;
@@ -279,26 +293,32 @@ button {
 .support {
   margin-bottom: 100px;
 }
+
 .support .container {
   display: flex;
   justify-content: space-between;
 }
+
 .support-wrapper {
   max-width: 450px;
 }
+
 .support-title {
   font-size: 32px;
   max-width: 304px;
   margin: 41px 0 25px;
 }
+
 .support-title span {
   font-size: 16px;
   font-weight: 600;
   margin-bottom: 8px;
 }
+
 .support-text {
   margin-bottom: 30px;
 }
+
 .icon-tick-wrap {
   width: 35px;
   height: 35px;
@@ -308,27 +328,34 @@ button {
   justify-content: center;
   margin-right: 30px;
 }
+
 .icon-tick {
   fill: #fff;
 }
+
 .icon-tick-green {
   background-color: #ff9900;
 }
+
 .icon-tick-red {
   background-color: #f03e3d;
 }
+
 .icon-tick-blue {
   background-color: #4d8dff;
 }
+
 .support-item-text {
   max-width: 385px;
   line-height: 1.625;
 }
+
 .support-item-wrap {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .support-list {
   display: flex;
   flex-direction: column;
@@ -382,19 +409,23 @@ button {
   font-weight: 600;
   margin-bottom: 12px;
 }
+
 .process {
   margin-bottom: 100px;
 }
+
 .process .container {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
 .process-title {
   font-size: 32px;
   max-width: 348px;
   margin: 0 auto 25px;
 }
+
 .process-text {
   line-height: 1.625;
   max-width: 542px;
@@ -402,6 +433,7 @@ button {
   text-align: center;
   margin-bottom: 40px;
 }
+
 .process-list {
   width: 100%;
   display: flex;
@@ -411,25 +443,30 @@ button {
   column-gap: 91px;
   margin-bottom: 50px;
 }
+
 .process-item {
   display: flex;
   align-items: center;
   gap: 20px;
 }
+
 .process-item:nth-child(2) {
   flex-direction: row-reverse;
   justify-content: flex-end;
 }
+
 .process-item:nth-child(3) {
   flex-direction: row-reverse;
   justify-content: flex-end;
 }
+
 .process-item-text {
   background: #fff;
   box-shadow: 2px 2px 10px rgba(23, 58, 86, 0.15);
   padding: 14px 20px 12px;
   border-radius: 25px;
 }
+
 .process-button {
   background-color: #02897a;
   color: #fff;
@@ -441,42 +478,51 @@ button {
 .strategy {
   margin-bottom: 171px;
 }
+
 .strategy-title {
   font-size: 34px;
   margin-bottom: 10px;
 }
+
 .strategy-text {
   font-weight: 500;
   line-height: 1.625;
   max-width: 465px;
   margin-bottom: 40px;
 }
+
 .strategy-list {
   display: flex;
   justify-content: space-between;
   gap: 30px;
 }
+
 .strategy-item {
   max-width: 350px;
   border: 1px solid #dedede;
   border-radius: 8px;
 }
+
 .strategy-img {
   margin-bottom: 24px;
 }
+
 .strategy-item-text {
   line-height: 0.175;
   margin: 0 0 12px 24px;
 }
+
 .strategy-item-text span {
   font-weight: 700;
 }
+
 .strategy-item-subtitle {
   max-width: 296px;
   font-size: 24px;
   line-height: 1.666;
   margin: 0 27px 40px;
 }
+
 .active-subtitle {
   color: #02897a;
 }
@@ -484,26 +530,31 @@ button {
 .price {
   margin-bottom: 100px;
 }
+
 .price .container {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-bottom: 100px;
 }
+
 .price-title {
   font-size: 34px;
   margin-bottom: 10px;
 }
+
 .price-text {
   font-weight: 500;
   margin-bottom: 40px;
 }
+
 .price-list {
   width: 100%;
   display: flex;
   justify-content: space-between;
   gap: 72px;
 }
+
 .price-item {
   width: calc((100% - 144px) / 3);
   box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.25);
@@ -515,33 +566,41 @@ button {
   align-items: center;
   transition: background-color 250ms ease-in-out, color 250ms ease-in-out;
 }
+
 .price-item:hover {
   background-color: #02897a;
   color: #fff;
 }
+
 .price-item:hover .subscribe-price .number {
   color: #fff;
 }
+
 .price-item:hover .dollar {
   color: #fff;
 }
+
 .price-item:hover .price-button {
   color: #02897a;
   background-color: #fff;
 }
+
 .price-subtitle {
   font-size: 24px;
   line-height: 1.666;
   margin: 32px 0 8px;
 }
+
 .price-item-text {
   line-height: 2.5;
 }
+
 .subscribe-price {
   display: flex;
   align-items: center;
   gap: 7px;
 }
+
 .number {
   font-size: 76px;
   font-weight: 700;
@@ -549,6 +608,7 @@ button {
   text-align: center;
   color: #02897a;
 }
+
 .dollar {
   font-size: 24px;
   font-weight: 700;
@@ -557,11 +617,13 @@ button {
   margin-bottom: 4px;
   transition: color 250ms ease-in-out;
 }
+
 .per-time {
   line-height: 1.1875;
   letter-spacing: 0.01em;
   color: #afafaf;
 }
+
 .price-item-list {
   display: flex;
   flex-direction: column;
@@ -569,11 +631,13 @@ button {
   margin-bottom: 30px;
   text-align: center;
 }
+
 .price-item-list-text {
   font-weight: 500;
   line-height: 1.375;
   letter-spacing: 0.01em;
 }
+
 .price-button {
   border-radius: 8px;
   width: 139px;
@@ -634,9 +698,11 @@ button {
   padding-bottom: 20px;
   margin-bottom: 150px;
 }
+
 .join-wrap {
   max-width: 510px;
 }
+
 .join-text {
   font-weight: 600;
   font-size: 32px;
@@ -644,6 +710,7 @@ button {
   color: #fff;
   margin-bottom: 46px;
 }
+
 .join-btn {
   border-radius: 8px;
   width: 150px;
@@ -657,24 +724,30 @@ button {
 .footer .container {
   margin-bottom: 40px;
 }
+
 .helpful-links {
   display: flex;
   margin-bottom: 16px;
 }
+
 .social {
   max-width: 178px;
   margin-right: 146px;
 }
+
 .icon-logo {
   flex-shrink: 0;
 }
+
 .social .logo {
   margin-bottom: 16px;
 }
+
 .social-links-list {
   display: flex;
   gap: 16px;
 }
+
 .social-link {
   display: inline-flex;
   justify-content: center;
@@ -682,28 +755,35 @@ button {
   width: 40px;
   height: 40px;
 }
+
 .resources {
   margin-right: 126px;
 }
+
 .resource-text {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.5;
   margin-bottom: 8px;
 }
+
 .resource-item {
   line-height: 2.19;
 }
+
 .stuff {
   margin-right: 83px;
 }
+
 .resource-link {
   transition: color 250ms ease-in-out;
 }
+
 .resource-link:hover,
 .resource-link:focus {
   color: #02897a;
 }
+
 .form-text {
   font-weight: 500;
   font-size: 20px;
@@ -711,27 +791,32 @@ button {
   max-width: 280px;
   margin-bottom: 30px;
 }
+
 .input-wrap {
   position: relative;
   margin-bottom: 25px;
 }
+
 .footer-form-input {
   border: 1px solid #bcd0e5;
   border-radius: 4px;
-  width: 325px;
+  width: 280px;
   height: 48px;
   background-color: #fff;
-  padding: 0 42px;
+  padding-left: 42px;
 }
+
 .footer-form-input::placeholder {
   line-height: 1.75;
 }
+
 .mobile-phone-icon {
   position: absolute;
   top: 50%;
   left: 12px;
   transform: translateY(-50%);
 }
+
 .form-button {
   border-radius: 4px;
   width: 131px;
@@ -740,6 +825,7 @@ button {
   color: #fff;
   font-weight: 700;
 }
+
 .footer-text {
   text-align: center;
   line-height: 1.87;
@@ -752,11 +838,13 @@ button {
   margin-top: 100px;
   margin-bottom: 117px;
 }
+
 .customers-title {
   font-size: 40px;
   text-align: center;
   margin-bottom: 50px;
 }
+
 .customers-list {
   display: flex;
   gap: 64px;
@@ -767,15 +855,18 @@ button {
   background-color: #f5f5f5;
   padding: 24px 145px 68px;
 }
+
 .benefits-title {
   font-size: 34px;
   text-align: center;
   margin-bottom: 50px;
 }
+
 .benefits-list {
   display: flex;
   gap: 30px;
 }
+
 .benefits-item {
   width: calc((100% - 60px) / 3);
   display: flex;
@@ -785,21 +876,25 @@ button {
   border-radius: 10px;
   padding: 32px 26px;
 }
+
 .benefits-item-text {
   max-width: 275px;
   text-align: center;
   line-height: 1.6875;
   letter-spacing: 0.01em;
 }
+
 .benefits-item .product-icon-wrap {
   width: 50px;
   height: 50px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
   margin-bottom: 32px;
 }
+
 .benefits-item .heart-icon-wrap {
   background-color: #f03e3d;
 }
+
 .benefits-item-title {
   font-weight: 700;
   font-size: 24px;
@@ -813,43 +908,52 @@ button {
   max-width: 1400px;
   padding: 100px 189px 115px;
 }
+
 .work-title {
   font-size: 34px;
   text-align: center;
   margin-bottom: 73px;
 }
+
 .work-list {
   display: flex;
   flex-direction: column;
   gap: 100px;
   margin-bottom: 77px;
 }
+
 .work-item {
   display: flex;
   gap: 90px;
 }
+
 .work-item-wrap {
   display: flex;
   flex-direction: column;
   gap: 16px;
   margin-top: 35px;
 }
+
 .step {
   font-weight: 500;
   font-size: 20px;
   text-transform: uppercase;
 }
+
 .work-subtitle {
   font-weight: 600;
   font-size: 24px;
 }
+
 .work-text {
   max-width: 438px;
   line-height: 1.75;
 }
+
 .work-item:nth-child(even) {
   flex-direction: row-reverse;
 }
+
 .work-btn {
   display: block;
   border-radius: 8px;
@@ -871,19 +975,23 @@ button {
   flex-direction: column;
   align-items: center;
 }
+
 .invite-title {
   max-width: 537px;
   font-size: 32px;
   text-align: center;
   margin-bottom: 93px;
 }
+
 .invite-list {
   display: flex;
   gap: 220px;
 }
+
 .invite-item {
   text-align: center;
 }
+
 .invite-img-wrap {
   width: 150px;
   height: 150px;
@@ -895,9 +1003,11 @@ button {
   margin: 0 auto;
   margin-bottom: 27px;
 }
+
 .invite-item:last-child .invite-img-wrap {
   background-color: #f2f6ff;
 }
+
 .invite-subtitle {
   font-weight: 500;
   font-size: 24px;
@@ -905,11 +1015,13 @@ button {
   color: #000;
   margin-bottom: 16px;
 }
+
 .invite-sublist {
   font-size: 18px;
   line-height: 1.77778;
   margin-bottom: 12px;
 }
+
 .invite-list-text {
   font-weight: 500;
   font-size: 16px;
@@ -926,21 +1038,25 @@ button {
   margin-top: 50px;
   margin-bottom: 150px;
 }
+
 .pricing-title {
   font-weight: 600;
   font-size: 24px;
   text-transform: uppercase;
   margin-bottom: 32px;
 }
+
 .pricing-text {
   font-weight: 700;
   font-size: 40px;
   margin-bottom: 16px;
 }
+
 .pricing-subtext {
   font-weight: 500;
   margin-bottom: 49px;
 }
+
 .enterprice .container {
   width: 1400px;
   background: linear-gradient(180deg, #f6f6f6 0%, rgba(246, 246, 246, 0) 100%);
@@ -951,21 +1067,25 @@ button {
   padding-bottom: 50px;
   margin-bottom: 294px;
 }
+
 .enterprice-title {
   font-weight: 600;
   font-size: 24px;
   margin-bottom: 16px;
   text-transform: uppercase;
 }
+
 .enterprice-text {
   font-weight: 700;
   font-size: 34px;
   margin-bottom: 8px;
 }
+
 .enterprice-subtext {
   font-size: 18px;
   margin-bottom: 32px;
 }
+
 .enterprice-btn {
   border-radius: 8px;
   width: 224px;
@@ -975,33 +1095,40 @@ button {
   font-weight: 600;
   font-size: 18px;
 }
+
 .effects .container {
   width: 1131px;
   margin-bottom: 6px;
 }
+
 .effects-title {
   font-size: 34px;
   text-align: center;
   margin-bottom: 56px;
 }
+
 .effects-wrap {
   display: flex;
   gap: 60px;
 }
+
 .amico-icon {
   flex-shrink: 0;
 }
+
 .effects-list {
   display: flex;
   flex-direction: column;
   gap: 32px;
 }
+
 .effects-title-wrap {
   display: flex;
   align-items: center;
   gap: 15px;
   margin-bottom: 16px;
 }
+
 .effects-icon-wrap {
   width: 50px;
   height: 50px;
@@ -1011,24 +1138,66 @@ button {
   justify-content: center;
   align-items: center;
 }
+
 .effects-subtitle {
   font-weight: 600;
   font-size: 24px;
 }
+
 .effects-text {
   line-height: 1.75;
 }
+
 .faq .container {
   max-width: 920px;
   margin-bottom: 150px;
 }
+
 .faq-title {
   font-size: 34px;
   text-align: center;
   margin-bottom: 8px;
 }
+
 .faq-text {
   font-size: 18px;
   text-align: center;
   margin-bottom: 50px;
+}
+
+.details-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.summary-text {
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 24px;
+}
+
+.faq-details {
+  border-bottom: 1px solid #e7e7e7;
+}
+
+.faq-summary {
+  font-weight: 500;
+  font-size: 18px;
+  margin-bottom: 14px;
+  padding: 16px 0 22px;
+  list-style-type: none;
+}
+
+.faq-summary::before {
+  content: url("../images/plus_circle.png");
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+  margin-right: 16px;
+}
+
+.faq-details[open] .faq-summary::before {
+  content: url("../images/minus_circle.png");
 }
